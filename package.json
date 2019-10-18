@@ -1,0 +1,30 @@
+{
+  "name": "form-data-buffer",
+  "main": "./lib/form_data.js",
+  "version": "0.0.2",
+  "description": "Fork from form-data that accepts Readable stream instead of file",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+	"http",
+	"multipart",
+	"formdata"
+  ],
+  "author": "Starzhynski, Chebotarov",
+  "license": "MIT",
+
+
+  "dependencies": {
+    "asynckit": "^0.4.0",
+    "combined-stream": "^1.0.6",
+    "mime-types": "^2.1.12"
+  },
+  "typings": "./index.d.ts"
+
+
+}
